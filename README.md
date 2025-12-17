@@ -1,4 +1,4 @@
-### SYNCHRONOUS-UP-COUNTER
+'''### SYNCHRONOUS-UP-COUNTER
 
 **AIM:**
 
@@ -28,19 +28,48 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Initialize the shift register to a known state (e.g., all zeros).
+
+2.Input a bit serially into the shift register.
+
+3.Shift the contents of the register one position to the right (or left).
+
+4.Output the shifted bit from the last stage of the register.
+
+5.Repeat steps 2-4 for each bit you want to input and shift.
 
 **PROGRAM**
-
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+
+UP COUNTER
+
+![alt text](<Screenshot 2025-12-17 082347.png>)
+
+DOWN COUNTER
+![alt text](<Screenshot 2025-12-17 083357.png>)
+
+
+
+
+Developed by: HEMALATHA V RegisterNumber:25015914
 */
 
 **RTL LOGIC UP COUNTER**
 
+![alt text](<Screenshot 2025-12-17 082408.png>)
+
+
+RTL LOGIC DOWN COUNTER
+
+![alt text](<Screenshot 2025-12-17 083417.png>)
+
 **TIMING DIAGRAM FOR IP COUNTER**
+
+![alt text](<Screenshot 2025-12-17 083029.png>)
 
 **TRUTH TABLE**
 
+![alt text](<Screenshot 2025-12-17 084904.png>)
 **RESULTS**
+Thus implemented a 4 bit synchronous up counter and validated its functionality.'''
